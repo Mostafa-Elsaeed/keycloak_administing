@@ -72,9 +72,9 @@ networks:
 ## keycloak Deployed on my own server
 
 - keycloak Dashboard
-- ![keycloak Dashboard](/imgs/1.png)
-
-- ![keycloak clients i have created](/imgs/2.png)
+  ![keycloak Dashboard](/imgs/1.png)
+- keycloak client apps i have made one for the admin and one for login the users
+  ![keycloak clients i have created](/imgs/2.png)
 
 ## API Endpoints
 
