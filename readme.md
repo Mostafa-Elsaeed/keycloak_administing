@@ -82,23 +82,23 @@ You can test the following endpoints:
 
 1. **Admin Login:**
 
-   - **Endpoint:** `/auth/realms/master/protocol/openid-connect/token`
+   - **Endpoint:** `/realms/{realm_name}/protocol/openid-connect/token`
    - **Method:** POST
    - **Description:** Obtain an access token for the admin client, required for user management.
-   - ![Admin Login Request](path/to/admin_login_request.png)
+   - ![Admin Login Request](/imgs/4.png)
 
 2. **Create User:**
 
-   - **Endpoint:** `/auth/admin/realms/{realm}/users`
+   - **Endpoint:** `admin/realms/{realm_name}/users`
    - **Method:** POST
    - **Description:** Use the generated token from the admin login to create users.
-   - ![Create User Request](path/to/create_user_request.png)
+   - ![Create User Request](/imgs/3.png)
 
 3. **User Login:**
-   - **Endpoint:** `/auth/realms/{realm}/protocol/openid-connect/token`
+   - **Endpoint:** `/realms/{realm_name}/protocol/openid-connect/token`
    - **Method:** POST
    - **Description:** Authenticate the users and obtain their access token.
-   - ![User Login Request](path/to/user_login_request.png)
+   - ![User Login Request](/imgs/5.png)
 
 ## Usage
 
